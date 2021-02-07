@@ -1,49 +1,33 @@
-.Search {
-  display: flex;
-  border: 1px dotted red;
-  width: 500px;
-  padding: 15px;
-  border-radius: 30%;
-  box-sizing: border-box;
+.form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
 }
-form {
-  position: relative;
-  width: 300px;
-  margin: 0 auto;
+.input {
+  width: 250px;
   height: 42px;
-}
-input {
-  height: 42px;
-  width: 0;
-  padding: 0 42px 0 15px;
-  border: none;
-  border-bottom: 2px solid transparent;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: white;
   outline: none;
-  background: transparent;
-  transition: 0.4s cubic-bezier(0, 0.8, 0, 1);
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
+  position: relative;
+  transition: 0.3s linear;
 }
-input:focus {
+.input:focus {
   width: 300px;
-  z-index: 1;
-  border-bottom: 2px solid #f9f0da;
 }
-button {
-  background: #683b4d;
-  border: none;
-  height: 42px;
+.button {
   width: 42px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  cursor: pointer;
+  height: 42px;
+  background: none;
+  border: none;
+  position: relative;
+  top: -2px;
+  right: 50px;
 }
-button:before {
+.button:before {
   content: "\f002";
   font-family: FontAwesome;
-  font-size: 16px;
-  color: #f9f0da;
+  color: #324b4e;
 }
