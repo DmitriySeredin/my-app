@@ -1,8 +1,8 @@
 import React from "react";
-import "./Actions.css";
+import style from "./Actions.module.css";
 const Actions = () => {
   return (
-    <div className="icons">
+    <div className={style.icons}>
       <div>
         <img
           src="https://image.flaticon.com/icons/png/24/9/9294.png"
@@ -10,11 +10,7 @@ const Actions = () => {
         />
       </div>
       <div>
-        <img
-          className="img"
-          src="https://image.flaticon.com/icons/png/24/9/9294.png"
-          alt=""
-        />
+        <img src="https://image.flaticon.com/icons/png/24/9/9294.png" alt="" />
       </div>
       <div>
         <img src="https://image.flaticon.com/icons/png/24/9/9294.png" alt="" />

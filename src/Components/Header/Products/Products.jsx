@@ -1,9 +1,13 @@
 import React from "react";
-import "./Products.css";
+import style from "./Products.module.css";
 const Products = () => {
   return (
-    <div className="Products">
-      <img src="https://image.flaticon.com/icons/png/24/9/9294.png" alt="" />
+    <div className={style.Products}>
+      <img
+        className={style.img}
+        src="https://image.flaticon.com/icons/png/24/9/9294.png"
+        alt=""
+      />
       <h1>Мужская одежда</h1>
     </div>
   );
