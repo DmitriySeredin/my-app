@@ -8,7 +8,7 @@ const Products = () => {
         src="https://image.flaticon.com/icons/png/24/9/9294.png"
         alt=""
       />
-      <h1>Мужская одежда</h1>
+      <h1 className={style.name}>Мужская одежда</h1>
     </div>
   );
 };

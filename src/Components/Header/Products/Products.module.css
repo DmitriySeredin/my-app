@@ -1,7 +1,10 @@
 .Products {
   display: flex;
-  border: 1px dotted blue;
 }
 .img {
-  width: 500px;
+  width: 80px;
+}
+.name {
+  color: white;
+  padding-left: 30px;
 }

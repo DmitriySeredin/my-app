@@ -2,9 +2,10 @@ import React from "react";
 import style from "./Search.module.css";
 const Search = () => {
   return (
-    <div className={style.Search}>
-      <input type="text" />
-    </div>
+    <form>
+      <input placeholder="Искать" type="Текст" />
+      <button type="submit">Поиск</button>
+    </form>
   );
 };
 export default Search;
