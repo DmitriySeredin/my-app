@@ -22,8 +22,5 @@
   height: 60px;
   display: flex;
   align-items: center;
-}
-
-.block:hover {
   background-color: #525050;
 }
