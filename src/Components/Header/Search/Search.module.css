@@ -4,27 +4,23 @@
   margin-right: 30px;
 }
 .input {
-  width: 250px;
-  height: 42px;
+  width: 500px;
+  height: 35px;
   padding-left: 15px;
   border-radius: 42px;
   border: 2px solid #324b4e;
   background: white;
   outline: none;
   position: relative;
-  transition: 0.3s linear;
-}
-.input:focus {
-  width: 300px;
 }
 .button {
-  width: 42px;
-  height: 42px;
+  width: 35px;
+  height: 35px;
   background: none;
-  border: none;
   position: relative;
-  top: -2px;
   right: 50px;
+  border: 1px solid green;
+  border-radius: 50%;
 }
 .button::after {
   content: "\f002";

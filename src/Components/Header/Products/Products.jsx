@@ -5,10 +5,12 @@ const Products = () => {
     <div className={style.Products}>
       <img
         className={style.img}
-        src="https://image.flaticon.com/icons/png/24/9/9294.png"
+        src="https://bolf.ua/data/gfx/mask/rus/logo_12_big.svg"
         alt=""
       />
-      <h1 className={style.name}>Мужская одежда</h1>
+      <div className={style.block}>
+        <span className={style.name}>МУЖСКАЯ ОДЕЖДА</span>
+      </div>
     </div>
   );
 };
