@@ -1,6 +1,6 @@
 import React from "react";
-import style from "./Actions.module.css";
-const Actions = () => {
+import style from "./Icons.module.css";
+const Icons = () => {
   return (
     <div className={style.icons}>
       <div className={style.border}>
@@ -27,4 +27,4 @@ const Actions = () => {
     </div>
   );
 };
-export default Actions;
+export default Icons;
