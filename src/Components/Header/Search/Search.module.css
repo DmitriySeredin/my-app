@@ -22,7 +22,7 @@
   border: 1px solid green;
   border-radius: 50%;
 }
-.button:before {
+.button::after {
   content: "\f002";
   font-family: FontAwesome;
   color: #324b4e;
