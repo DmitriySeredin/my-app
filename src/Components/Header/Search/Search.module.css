@@ -26,7 +26,7 @@
   top: -2px;
   right: 50px;
 }
-.button:before {
+.button::after {
   content: "\f002";
   font-family: FontAwesome;
   color: #324b4e;
