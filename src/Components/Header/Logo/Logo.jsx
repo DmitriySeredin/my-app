@@ -1,6 +1,6 @@
 import React from "react";
-import style from "./Products.module.css";
-const Products = () => {
+import style from "./Logo.module.css";
+const Logo = () => {
   return (
     <div className={style.Products}>
       <img
@@ -14,4 +14,4 @@ const Products = () => {
     </div>
   );
 };
-export default Products;
+export default Logo;
