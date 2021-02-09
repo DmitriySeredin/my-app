@@ -1,0 +1,41 @@
+.sales {
+  display: flex;
+  background-color: #232323;
+  height: 49px;
+  padding: 0px 32px;
+  justify-content: space-between;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0px 16px;
+  padding: 1px 6px;
+  vertical-align: middle;
+  width: 561px;
+}
+.span {
+  text-align: center;
+  font-family: Futura-pt, Futura STD, Arial, Verdana, sans-serif;
+  line-height: 15px;
+
+  display: inline-block;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.strong {
+  color: white;
+  font-size: 14px;
+  font-weight: 700px;
+  letter-spacing: 2px;
+}
+.new {
+  margin: 9px 0px;
+  font-size: 13px;
+  border: 2px solid white;
+  color: white;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding: 5px;
+}

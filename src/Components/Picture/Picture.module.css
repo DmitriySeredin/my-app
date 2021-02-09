@@ -1,0 +1,11 @@
+.block {
+  background-color: white;
+  height: 350px;
+  margin: 0px 0px 48px;
+  display: flex;
+  justify-content: center;
+}
+.img {
+  height: 300px;
+  width: 1258;
+}
