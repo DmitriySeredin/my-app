@@ -12,6 +12,7 @@
   background: white;
   outline: none;
   position: relative;
+  top: -7px;
 }
 .button {
   width: 35px;
@@ -19,11 +20,15 @@
   background: none;
   position: relative;
   right: 50px;
-  border: 1px solid green;
-  border-radius: 50%;
+  top: 6px;
+  border: none;
+  z-index: 10;
 }
-.button::after {
-  content: "\f002";
-  font-family: FontAwesome;
-  color: #324b4e;
+
+.img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  right: 86px;
 }
