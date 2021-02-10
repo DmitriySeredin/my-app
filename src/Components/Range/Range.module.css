@@ -29,11 +29,29 @@
   font-weight: 900;
   font-style: italic;
 }
-
 .smallText {
   font-size: 24px;
   color: white;
   margin: 5px;
   letter-spacing: 2.8px;
   font-weight: 900;
+}
+.slider {
+}
+.carusel {
+  padding: 10px 16px 10px 0px;
+  z-index: 1;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.list {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+.a {
+  text-decoration: none;
+  display: block;
 }
