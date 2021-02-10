@@ -14,7 +14,7 @@ const Range = () => {
           <h2 className={style.largeText}>(СКОРО ЗАКАНЧИВАЕТСЯ!)</h2>
         </div>
         <div className={style.textElement}>
-          <p className={style.largeText}>ДО -80%</p>
+          <p className={style.smallText}>ДО -80%</p>
         </div>
       </div>
       <div></div>

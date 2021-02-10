@@ -13,7 +13,6 @@
 .textElement {
   background-color: #15a66d;
   margin-bottom: 5px;
-  padding: 0px;
 }
 .textElement:first-child {
   margin-top: 30px;
@@ -22,10 +21,19 @@
   margin-top: 10px;
 }
 .largeText {
+  margin: 10px;
   color: white;
   font-size: 48px;
   line-height: 48px;
   letter-spacing: 2.8px;
   font-weight: 900;
   font-style: italic;
+}
+
+.smallText {
+  font-size: 24px;
+  color: white;
+  margin: 5px;
+  letter-spacing: 2.8px;
+  font-weight: 900;
 }
