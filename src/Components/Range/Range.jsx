@@ -28,8 +28,8 @@ const Range = () => {
                 src="https://images.asos-media.com/products/brave-soul-padded-hooded-longline-jacket-in-black/22607484-1-black?$XXL$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000"
                 alt=""
               />
-              <div>
-                <span>КУРТКИ И ПАЛЬТО</span>
+              <div className={style.name}>
+                <span className={style.span}>КУРТКИ И ПАЛЬТО</span>
               </div>
             </a>
           </li>
@@ -39,8 +39,8 @@ const Range = () => {
                 src="https://images.asos-media.com/products/bolongaro-trevor-skinny-jeans-in-dark-indigo/21425673-1-blue?$XXL$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000"
                 alt=""
               />
-              <div>
-                <span>ДЖИНСЫ</span>
+              <div className={style.name}>
+                <span className={style.span}>ДЖИНСЫ</span>
               </div>
             </a>
           </li>
@@ -50,8 +50,8 @@ const Range = () => {
                 src="https://images.asos-media.com/products/adidas-originals-gazelle-vintage-trainers-in-green-suede/22158521-1-green?$XXL$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000"
                 alt=""
               />
-              <div>
-                <span>ОБУВЬ</span>
+              <div className={style.name}>
+                <span className={style.span}>ОБУВЬ</span>
               </div>
             </a>
           </li>
@@ -61,8 +61,8 @@ const Range = () => {
                 src="https://images.asos-media.com/products/asos-actual-oversized-teddy-borg-hoodie-with-applique-logo-colour-block/21894064-1-navy?$XXL$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000"
                 alt=""
               />
-              <div>
-                <span>ХУДИ И СВИТШОТЫ</span>
+              <div className={style.name}>
+                <span className={style.span}>ХУДИ И СВИТШОТЫ</span>
               </div>
             </a>
           </li>
@@ -72,8 +72,8 @@ const Range = () => {
                 src="https://images.asos-media.com/products/soul-star-zip-thru-check-flannel-shirt-with-double-pocket-in-red/20193734-1-red?$XXL$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000"
                 alt=""
               />
-              <div>
-                <span>РУБАШКИ</span>
+              <div className={style.name}>
+                <span className={style.span}>РУБАШКИ</span>
               </div>
             </a>
           </li>
@@ -83,8 +83,8 @@ const Range = () => {
                 src="https://images.asos-media.com/products/brave-soul-high-neck-jumper-in-bottle-green/21752014-1-bottlegreen?$XXL$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000"
                 alt=""
               />
-              <div>
-                <span>ВЯЗАНЫЕ ВЕЩИ</span>
+              <div className={style.name}>
+                <span className={style.span}>ВЯЗАНЫЕ ВЕЩИ</span>
               </div>
             </a>
           </li>
@@ -94,8 +94,8 @@ const Range = () => {
                 src="https://images.asos-media.com/products/burton-menswear-tapered-crop-trousers-in-khaki/22288105-4?$XXL$&wid=513&fit=constrain&hei=236&wid=185&bgc=000000"
                 alt=""
               />
-              <div>
-                <span>БРЮКИ</span>
+              <div className={style.name}>
+                <span className={style.span}>БРЮКИ</span>
               </div>
             </a>
           </li>

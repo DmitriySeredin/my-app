@@ -36,6 +36,9 @@
   letter-spacing: 2.8px;
   font-weight: 900;
 }
+
+/* Слайдер */
+
 .slider {
 }
 .carusel {
@@ -50,8 +53,29 @@
   list-style: none;
   display: inline-block;
   vertical-align: top;
+  padding: 0 10px;
+  width: calc((100% - 100px) / 6);
 }
 .a {
   text-decoration: none;
   display: block;
+  color: #2d2d2d;
+}
+
+.name {
+  color: black;
+  background-color: white;
+  height: 46px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span {
+  font-size: 13px;
+  line-height: 15px;
+  padding: 8px 7px;
+  white-space: normal;
+  font-weight: 700;
 }
