@@ -5,6 +5,7 @@ import ProductsList from "./Components/ProductsList/ProductsList";
 import Sales from "./Components/Sales/Sales";
 import Picture from "./Components/Picture/Picture";
 import Separator from "./Components/Separator/Separator";
+import Items from "./Components/Items/Items";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Sales />
       <Picture />
       <Separator />
+      <Items />
     </>
   );
 };
