@@ -4,7 +4,7 @@ import Header from "./Components/Header/Header";
 import ProductsList from "./Components/ProductsList/ProductsList";
 import Sales from "./Components/Sales/Sales";
 import Picture from "./Components/Picture/Picture";
-import Range from "./Components/Range/Range";
+import Separator from "./Components/Separator/Separator";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <ProductsList />
       <Sales />
       <Picture />
-      <Range />
+      <Separator />
     </>
   );
 };
