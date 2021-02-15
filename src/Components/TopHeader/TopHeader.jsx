@@ -1,12 +1,20 @@
 import React from "react";
-import "./TopHeader.css";
+import style from "./TopHeader.module.css";
 const TopHeader = () => {
   return (
-    <div>
-      <nav className="Nav">
-        <div className="item">Marketplace</div>
-        <div className="item">Помощь</div>
-        <div className="item">Язык</div>
+    <div className={style.topHeader}>
+      <nav className={style.nav}>
+        <div className={style.item}>Marketplace</div>
+        <div className={style.item}>Помощь и FAQ</div>
+        <div className={style.item}>
+          <button className={style.btn}>
+            <img
+              src="https://assets.asosservices.com/storesa/images/flags/ru.png"
+              alt=""
+              className={style.img}
+            />
+          </button>
+        </div>
       </nav>
     </div>
   );
