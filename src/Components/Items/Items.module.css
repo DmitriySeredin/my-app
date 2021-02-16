@@ -7,7 +7,13 @@
   display: flex;
   justify-content: center;
 }
+
+.bigImg {
+  margin-bottom: 20px;
+  width: auto;
+}
 .imgWrapper {
+  max-width: 974px;
   width: calc((100% - 80px) / 6);
   margin: 8px 8px 25px;
   text-align: center;
