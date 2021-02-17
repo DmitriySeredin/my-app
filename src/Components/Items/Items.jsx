@@ -15,9 +15,10 @@ const Items = () => {
             src="https://content.asos-media.com/-/media/homepages/mw/2021/02/15/category_mwinclusive_ru.jpg"
             alt=""
           />
-
-          <span>TALL & PLUS-SIZE</span>
-          <p>Ещё больше размеров для любимых образов</p>
+          <div className={style.text}>
+            <span>TALL & PLUS-SIZE</span>
+            <p>Ещё больше размеров для любимых образов</p>
+          </div>
         </div>
         <div className={style.imgWrapper}>
           <img
@@ -25,9 +26,10 @@ const Items = () => {
             src="https://content.asos-media.com/-/media/homepages/mw/2021/02/15/mw_denim_moment_870x1110.jpg"
             alt=""
           />
-
-          <span>ДЖИНСЫ НОВОГО СЕЗОНА</span>
-          <p>Кажется время, пришло...</p>
+          <div className={style.text}>
+            <span>ДЖИНСЫ НОВОГО СЕЗОНА</span>
+            <p>Кажется время, пришло...</p>
+          </div>
         </div>
         <div className={style.imgWrapper}>
           <img
@@ -35,9 +37,10 @@ const Items = () => {
             src="https://content.asos-media.com/-/media/homepages/mw/2021/02/15/ww_mw_calf_boots_moment_870x1110.jpg"
             alt=""
           />
-
-          <span>БОТИНКИ</span>
-          <p>Приведут тебя к цели</p>
+          <div className={style.text}>
+            <span>БОТИНКИ</span>
+            <p>Приведут тебя к цели</p>
+          </div>
         </div>
         <div className={style.imgWrapper}>
           <img
@@ -45,9 +48,10 @@ const Items = () => {
             src="https://content.asos-media.com/-/media/homepages/mw/2021/02/15/mw_dark_future_moment_870x1110.jpg"
             alt=""
           />
-
-          <span>DARK FUTURE</span>
-          <p>Обрати внимание на этот бренд</p>
+          <div className={style.text}>
+            <span>DARK FUTURE</span>
+            <p>Обрати внимание на этот бренд</p>
+          </div>
         </div>
       </div>
     </section>

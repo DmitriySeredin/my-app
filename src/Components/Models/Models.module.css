@@ -1,0 +1,15 @@
+.models {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    width: calc((((100% - 220px) / 12) * 6) + 86px);
+    max-width: 498.5px;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper:first-of-type {
+    margin-right: 24px;
+  }
+}

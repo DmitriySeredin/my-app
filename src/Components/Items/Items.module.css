@@ -26,3 +26,15 @@
   display: block;
   position: relative;
 }
+.text {
+  padding-top: 20px;
+}
+.text span {
+  font-size: 19px;
+  color: black;
+  font-weight: 1000;
+}
+.text p {
+  font-size: 16px;
+  font-weight: 500;
+}
