@@ -7,6 +7,7 @@ import Picture from "./Components/Picture/Picture";
 import Separator from "./Components/Separator/Separator";
 import Items from "./Components/Items/Items";
 import Models from "./Components/Models/Models";
+import Brands from "./Components/Brands/Brands";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Separator />
       <Items />
       <Models />
+      <Brands />
     </>
   );
 };
