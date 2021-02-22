@@ -8,6 +8,7 @@ import Separator from "./Components/Separator/Separator";
 import Items from "./Components/Items/Items";
 import Models from "./Components/Models/Models";
 import Brands from "./Components/Brands/Brands";
+import Payments from "./Components/Payments/Payments";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Items />
       <Models />
       <Brands />
+      <Payments />
     </>
   );
 };
