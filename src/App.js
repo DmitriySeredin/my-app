@@ -9,6 +9,7 @@ import Items from "./Components/Items/Items";
 import Models from "./Components/Models/Models";
 import Brands from "./Components/Brands/Brands";
 import Payments from "./Components/Payments/Payments";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Models />
       <Brands />
       <Payments />
+      <Footer />
     </>
   );
 };
