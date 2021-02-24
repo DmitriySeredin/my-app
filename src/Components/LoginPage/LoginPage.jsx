@@ -36,12 +36,18 @@ const LoginPage = () => {
             <h3>ВОЙТИ ЧЕРЕЗ...</h3>
             <div className={style.btn}>
               <div>
-                <img src="" alt="" />
+                <img
+                  src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/google-512.png"
+                  alt=""
+                />
                 <span>GOOGLE</span>
               </div>
               <div>
-                <img src="" alt="" />
-                <span>VK</span>
+                <img
+                  src="https://image.flaticon.com/icons/png/512/36/36917.png"
+                  alt=""
+                />
+                <span>ВКонтакте</span>
               </div>
             </div>
           </div>
