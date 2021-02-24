@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
-ReactDOM.render(<App />, document.getElementById("root"));
+import LoginPage from "./Components/LoginPage/LoginPage";
+// import App from "./App";
+ReactDOM.render(<LoginPage />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

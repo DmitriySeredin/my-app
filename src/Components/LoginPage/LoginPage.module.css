@@ -1,0 +1,47 @@
+.LoginPage {
+  background-color: #eee;
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+.logo h1 {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.form {
+  background-color: white;
+}
+.q {
+  display: flex;
+  padding: 30px;
+}
+.q div {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+}
+.q div:first-child {
+  border-bottom: 1px solid rgb(126, 126, 126);
+  border-right: 1px solid rgb(126, 126, 126);
+}
+.q div:last-child {
+  border-top: 1px solid rgb(126, 126, 126);
+  border-right: 1px solid rgb(126, 126, 126);
+}
+.form2 {
+  display: flex;
+  justify-content: center;
+}
+.form2 form {
+  display: flex;
+  flex-direction: column;
+}

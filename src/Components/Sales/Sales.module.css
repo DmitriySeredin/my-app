@@ -1,6 +1,7 @@
 .sales {
   display: flex;
-  background-color: #232323;
+  /* background-color: #232323; */
+  background-color: black;
   height: 49px;
   padding: 0px 32px;
   justify-content: space-between;

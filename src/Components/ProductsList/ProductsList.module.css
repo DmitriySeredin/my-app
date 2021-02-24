@@ -1,6 +1,7 @@
 .menu {
   display: flex;
-  background-color: #525050;
+  /* background-color: #525050; */
+  background-color: #2d2d2d;
   height: 50px;
   align-items: center;
   padding-left: 126px;

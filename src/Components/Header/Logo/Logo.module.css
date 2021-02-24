@@ -22,7 +22,8 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #525050;
+  /* background-color: #525050; */
+  background-color: #2d2d2d;
 }
 .span {
   color: white;

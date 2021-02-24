@@ -29,14 +29,14 @@ const Models = () => {
           <div className={style.moment}>
             <div className={style.momentWrap}>
               <img
-                src="https://content.asos-media.com/-/media/homepages/mw/2021/02/15/mw_bershka_moment_870x1110.jpg"
+                src="https://barkland.ru/assets/img/advantages1.jpg"
                 alt=""
               />
             </div>
           </div>
           <div className={style.text}>
             <div className={style.textTitle}>
-              <h2>BERSHKA</h2>
+              <h2>BARKLAND</h2>
             </div>
             <div className={style.textP}>
               <p>Обнови свой стиль</p>
