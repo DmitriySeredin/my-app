@@ -13,18 +13,18 @@ const LoginPage = () => {
         <div className={style.form}>
           <div className={style.q}>
             <div>
-              <NavLink to="/login/registr">
+              <NavLink to="/login/registr" className={style.link}>
                 <span>ВПЕРВЫЕ НА HARAKTER?</span>
               </NavLink>
             </div>
             <div>
-              <NavLink to="/login/login1">
+              <NavLink to="/login/loginto" className={style.link}>
                 <span>ВЫ УЖЕ ЗАРЕГИСТРИРОВАНЫ?</span>
               </NavLink>
             </div>
           </div>
         </div>
-        <Route path="/login/login1" render={() => <Login />} />
+        <Route path="/login/loginto" render={() => <Login />} />
         <Route path="/login/registr" render={() => <Registr />} />
       </div>
     </div>
