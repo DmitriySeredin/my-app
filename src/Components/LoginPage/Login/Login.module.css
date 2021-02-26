@@ -1,0 +1,106 @@
+.LoginPage {
+  background-color: #eee;
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+.logo h1 {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.form {
+  background-color: white;
+}
+
+.form2 {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+}
+.form2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form2 form input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 390px;
+  height: 40px;
+}
+
+.form2 form button {
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  border: none;
+  width: 300px;
+  height: 40px;
+  align-self: center;
+}
+
+.form2 form a {
+  color: black;
+  margin-top: 10px;
+  padding: 10px;
+  text-decoration: none;
+  align-self: center;
+}
+
+.entry {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.entry h3 {
+  margin: 0;
+}
+
+.entry h3:last-of-type {
+  margin-top: 35px;
+}
+
+.btn {
+  margin-top: 10px;
+  display: flex;
+}
+
+.btn img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.btn div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 120px;
+  border: 1px solid rgb(202, 202, 202);
+}
+
+.btn div:first-child {
+  margin-right: 10px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
