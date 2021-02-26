@@ -91,7 +91,6 @@
 .btn {
   margin-top: 10px;
   display: flex;
-  margin-bottom: 50px;
 }
 
 .btn img {
@@ -112,4 +111,12 @@
 
 .btn div:first-child {
   margin-right: 10px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

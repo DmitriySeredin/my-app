@@ -1,11 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import style from "./Profile.module.css";
 
 const Profile = () => {
   return (
     <div className={style.profile}>
       <div className={style.entry}>
-        <span>Войти</span>
+        <NavLink to="/login">
+          <span>Войти</span>
+        </NavLink>
         <span>Регистрация</span>
       </div>
       <div className={style.options}>

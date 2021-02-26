@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import style from "./LoginPage.module.css";
 const LoginPage = () => {
   return (
@@ -50,6 +51,9 @@ const LoginPage = () => {
                 <span>ВКонтакте</span>
               </div>
             </div>
+            <NavLink to="/app">
+              <button className={style.button}>Назад</button>
+            </NavLink>
           </div>
         </div>
       </div>
