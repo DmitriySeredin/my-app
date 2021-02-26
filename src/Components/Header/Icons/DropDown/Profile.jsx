@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <div className={style.profile}>
       <div className={style.entry}>
-        <NavLink to="/login">
+        <NavLink to="/login/login1">
           <span>Войти</span>
         </NavLink>
         <span>Регистрация</span>
