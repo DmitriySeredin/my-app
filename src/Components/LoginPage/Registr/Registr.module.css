@@ -4,7 +4,46 @@
   flex-direction: column;
   align-items: center;
 }
-.form {
-  display: flex;
-  flex-direction: column;
+.form label {
+  padding: 20px;
+  margin-top: 30px;
+}
+.form label input {
+  margin: 10px;
+  width: 300px;
+  height: 40px;
+}
+.form p {
+  font-size: 12px;
+  top: -15px;
+  left: 10px;
+  position: relative;
+}
+.form select {
+  border-radius: 0;
+  padding: 10px;
+  margin: 10px 15px 0 0;
+}
+.date {
+  margin-left: -15px;
+}
+.form select:first-of-type {
+  margin-left: 10px;
+}
+.form button {
+  background-color: gray;
+  border: none;
+  border-radius: 0;
+  color: white;
+  height: 40px;
+  width: 300px;
+  margin: 20px 0 20px 10px;
+}
+
+.button {
+  background-color: black !important ;
+  color: white !important ;
+  border: none !important ;
+  margin-top: 20px !important ;
+  margin-bottom: 20px !important ;
 }

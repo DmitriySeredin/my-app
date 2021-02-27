@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import LoginPage from "./Components/LoginPage/LoginPage";
 import App from "./App";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Route path="/app" render={() => <App />} />
     <Route path="/login" render={() => <LoginPage />} />
-  </BrowserRouter>,
-  document.getElementById("root")
+  </HashRouter>,
+  document.getElementById("root"),
 );
 
 // If you want to start measuring performance in your app, pass a function
