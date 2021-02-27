@@ -1,3 +1,3 @@
 # Интернет магазин мужской одежды на React/Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Процесс создания и написания кода полностью принадлежит @Beoning
